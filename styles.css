@@ -22,7 +22,7 @@ body{
     min-height: 100vh;
 }
 
-.main{
+.card{
     background-color: var(--dark-blue);
     max-width: 400px;
     min-width: 300px;
@@ -32,7 +32,7 @@ body{
     font-family: 'Overpass', sans-serif;
 }
 
-.star{
+.card__body__star{
     position: relative;
     display: inline-block;
     max-width: 100%;
@@ -42,24 +42,26 @@ body{
     margin-bottom: 1.5em;
 }
 
-.star img{
+.card__body__star img{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.main h1{
+.card__body--submit__title,
+.card__body--submitted__title{
     color: var(--white);
     font-size: 25px;
 }
 
-.main p{
+.card__body--submit__paragraph,
+.card__body--submitted__paragraph{
     color: var(--light-grey);
     margin: 1em 0;
 }
 
-.rating-section{
+.card__body--submit__rating{
     display: flex;
     justify-content: space-between;
     margin: 1.5em 0;
@@ -105,24 +107,20 @@ body{
     font-weight: 700;
 }
 
-.thank-content{
+.card__body--submitted{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.thank-content p:first-of-type{
+.card__body--submitted__rating-info{
     display: inline-block;
     color: var(--orange);
     background-color: var(--medium-grey);
     padding: .3em 1em;
     border-radius: 20px;
     margin: 2em 0;
-}
-
-.thank-content h2{
-    color: var(--white);
 }
 
 .hidden{

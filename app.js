@@ -1,5 +1,5 @@
-const mainCard = document.querySelector('.submit-content')
-const thankCard = document.querySelector('.thank-content')
+const mainCard = document.querySelector('.card__body--submit')
+const thankCard = document.querySelector('.card__body--submitted')
 const ratingButtons = document.querySelectorAll('.rating-item')
 
 const submitButton = document.getElementById('submit')
