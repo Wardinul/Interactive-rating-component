@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Wardinul/Interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://wardinul.github.io/Interactive-rating-component/)
+- Solution URL: [Here](https://github.com/Wardinul/Interactive-rating-component)
+- Live Site URL: [Here](https://wardinul.github.io/Interactive-rating-component/)
 
 ## My process
 
@@ -44,4 +44,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@Wardin](https://www.frontendmentor.io/profile/Wardinul)
+- Frontend Mentor - [@Alexandru](https://www.frontendmentor.io/profile/Wardinul)
